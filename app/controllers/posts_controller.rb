@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
 
-  #->Prelang (scaffolding:rails/scope_to_user)
+  #(scaffolding:rails/scope_to_user)
   before_filter :require_user_signed_in, only: [:new, :edit, :create, :update, :destroy]
 
   before_action :set_post, only: [:show, :edit, :update, :destroy, :vote]
@@ -67,7 +67,7 @@ class PostsController < ApplicationController
   end
 
 
-  #->Prelang (voting/acts_as_votable)
+  #(voting/acts_as_votable)
   def vote
 
     direction = params[:direction]

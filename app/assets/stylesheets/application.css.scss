@@ -19,7 +19,7 @@
 
 @import "bootstrap";
 
-//->Prelang (ui_framework:twitter_bootstrap)
+//(ui_framework:twitter_bootstrap)
 
 // Give everything in 'yield' margin to separate it.
 .yield {
@@ -31,7 +31,7 @@
   max-width: 750px;
 }
 
-//->Prelang (user_login:devise)
+// (user_login:devise)
 .form-user {
-  max-width: 450px;
+  max-width: 400px;
 }
